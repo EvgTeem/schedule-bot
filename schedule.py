@@ -3,8 +3,8 @@ import schedule
 import time
 from datetime import datetime
 
-TOKEN = "8708026205:AAFvC983jUciRPY8yBzdfQKWDb6IOjNuNyk"
-CHAT_ID = "1107351961"
+TOKEN = env.TOKEN
+CHAT_ID = env.CHAT_ID
 
 bot = telebot.TeleBot(TOKEN)
 
